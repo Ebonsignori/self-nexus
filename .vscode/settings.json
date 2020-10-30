@@ -1,0 +1,22 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1e0366",
+    "activityBar.foreground": "#ffffff",
+    "titleBar.border": "#1e0366",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.activeBackground": "#1e0366"
+  },
+  "eslint.workingDirectories": [
+    "services/auth-server"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/docker-volumes": true
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
+}

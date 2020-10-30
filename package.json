@@ -1,0 +1,32 @@
+{
+  "name": "self-nexus",
+  "version": "1.0.0",
+  "description": "root-level lerna package.json for self-nexus",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ebonsignori/self-nexus.git"
+  },
+  "keywords": [
+    "lerna",
+    "microservices",
+    "typescript",
+    "kubernetes",
+    "terraform"
+  ],
+  "author": "Evan Bonsignori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ebonsignori/self-nexus/issues"
+  },
+  "homepage": "https://github.com/Ebonsignori/self-nexus#readme"
+}

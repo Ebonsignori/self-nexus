@@ -1,0 +1,11 @@
+FROM node:12.18.1-alpine3.11
+
+RUN mkdir -p /home/node/services/auth-server && chown -R node:node /home/node/services/auth-server
+
+WORKDIR /home/node/services/auth-server
+
+COPY package*.json ./
+
+USER node
+
+RUN npm install --quiet

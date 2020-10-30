@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@self-nexus/constants": ["constants/src"]
+      "@self-nexus/*": ["*/src"]
+    },
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@self-nexus/constants",
+  "version": "1.0.0",
+  "description": "Constants, enums, and strings used across @self-nexus",
+  "main": "build/index.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist && rm -rf tsconfig.build.tsbuildinfo",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ebonsignori/self-nexus.git"
+  },
+  "author": "Evan Bonsignori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ebonsignori/self-nexus/issues"
+  },
+  "homepage": "https://github.com/Ebonsignori/self-nexus#readme"
+}

@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "build",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2019",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": false,
+    "removeComments": true,
+    "importHelpers": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*", ".env"],
+  "exclude": [
+      "node_modules",
+      "build",
+      ".vscode",
+      "docker-volumes",
+      "eslint/**/*"
+  ]
+}

@@ -1,0 +1,23 @@
+# dotenv environment variables file (commit .env.example to keep track of env vars)
+.env
+
+# Node
+node_modules
+
+# IDE
+.idea
+
+# system-specific
+## OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache

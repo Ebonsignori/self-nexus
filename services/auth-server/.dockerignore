@@ -1,0 +1,11 @@
+node_modules
+.vscode
+.elasticbeanstalk
+.git
+.gitignore
+.dockerignore
+Dockerfile
+Dockerfile.dev
+docker-compose.yml
+README.md
+LICENSE
